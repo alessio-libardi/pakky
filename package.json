@@ -1,0 +1,43 @@
+{
+  "name": "@alessio-libardi/pakky",
+  "description": "Receiving packages has never been so easy.",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.x.x",
+    "npm": "7.x.x"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alessio-libardi/pakky.git"
+  },
+  "keywords": [],
+  "author": "Alessio Libardi <alessio.libardi@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/alessio-libardi/pakky/issues"
+  },
+  "homepage": "https://alessio-libardi.github.io/pakky",
+  "browserslist": [
+    "defaults",
+    "maintained node versions",
+    "> 5%"
+  ],
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-postcss": "^1.2.2",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.14",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.1",
+    "snowpack": "^3.3.7",
+    "tailwindcss": "^2.1.2"
+  },
+  "dependencies": {
+    "alpinejs": "^2.8.2"
+  }
+}
