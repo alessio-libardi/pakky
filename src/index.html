@@ -13,7 +13,7 @@
     />
     <title>Pakky</title>
 
-    <link rel="stylesheet" type="text/css" href="./styles/index.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/styles/index.css" />
   </head>
   <body>
     <main>
@@ -27,7 +27,7 @@
         </h1>
         <p class="text-xl tracking-widest opacity-0 animate-hero-subtitle">
           Receiving packages has never been so easy.
-          <a href="./about">About</a>
+          <a href="/about/">About</a>
         </p>
       </section>
 
@@ -45,19 +45,76 @@
         </p>
       </section>
 
-      <section>
+      <section
+        class="container sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl mx-auto px-4 py-8 prose sm:prose-md md:prose-lg lg:prose-xl xl:prose-2xl dark:prose-dark text-center"
+      >
         <h2>Features</h2>
 
-        <h3>Easy</h3>
-        <h3>Safe</h3>
-        <h3>Smart</h3>
+        <div role="list" class="grid grid-flow-rows lg:grid-flow-col gap-12">
+          <div role="listitem" class="list-none">
+            <img
+              class="max-h-52 m-auto"
+              width="auto"
+              height="auto"
+              src="/assets/images/easy.svg"
+              alt="Image representing easiness"
+            />
+
+            <h3>Easy</h3>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+              maiores excepturi aut perferendis eius totam velit, adipisci, sunt
+              illum minus optio animi, rem libero esse facilis obcaecati
+              consequuntur cupiditate quam.
+            </p>
+          </div>
+          <div role="listitem">
+            <img
+              class="max-h-52 m-auto"
+              width="auto"
+              height="auto"
+              src="/assets/images/safe.svg"
+              alt="Image representing safety"
+            />
+
+            <h3>Safe</h3>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+              maiores excepturi aut perferendis eius totam velit, adipisci, sunt
+              illum minus optio animi, rem libero esse facilis obcaecati
+              consequuntur cupiditate quam.
+            </p>
+          </div>
+          <div role="listitem">
+            <img
+              class="max-h-52 m-auto"
+              width="auto"
+              height="auto"
+              src="/assets/images/smart.svg"
+              alt="Image representing smartness"
+            />
+
+            <h3>Smart</h3>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+              maiores excepturi aut perferendis eius totam velit, adipisci, sunt
+              illum minus optio animi, rem libero esse facilis obcaecati
+              consequuntur cupiditate quam.
+            </p>
+          </div>
+        </div>
       </section>
 
-      <section>
+      <section
+        class="container sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl mx-auto px-4 py-8 prose sm:prose-sm md:prose-md lg:prose-lg xl:prose-xl 2xl:prose-2xl dark:prose-dark text-center"
+      >
         <h2>About</h2>
       </section>
     </main>
 
-    <script type="module" src="./scripts/index.js"></script>
+    <script type="module" src="/assets/scripts/index.js"></script>
   </body>
 </html>
