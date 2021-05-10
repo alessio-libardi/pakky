@@ -4,16 +4,15 @@ Pakky, the best solution to securely order your products.
 
 ## Install Dependencies
 
-First, make sure you have `npm` (packaged with
-[Node.js](https://nodejs.org)) installed, then run `npm run setup` to install
-the dependencies and validate that everything is running correctly.
+```bash
+npm i
+```
 
 ## Available Scripts
 
 ### Development
 
 ```bash
-# runs the app in the development mode.
 npm run start
 ```
 
@@ -22,3 +21,7 @@ npm run start
 ```bash
 npm run build
 ```
+
+### About
+
+Made with [https://github.com/alpinejs/alpine](Alpine) and [https://tailwindcss.com/](Tailwind) to let HTML shine.
