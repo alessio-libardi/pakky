@@ -25,8 +25,8 @@
     "> 5%"
   ],
   "scripts": {
-    "start": "snowpack dev",
-    "build": "snowpack build"
+    "start": "vite",
+    "build": "vite build"
   },
   "devDependencies": {
     "@snowpack/plugin-postcss": "^1.2.2",
@@ -34,8 +34,8 @@
     "postcss": "^8.2.14",
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.1",
-    "snowpack": "^3.3.7",
-    "tailwindcss": "^2.1.2"
+    "tailwindcss": "^2.1.2",
+    "vite": "^2.2.4"
   },
   "dependencies": {
     "alpinejs": "^2.8.2"
