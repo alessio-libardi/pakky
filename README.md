@@ -24,4 +24,4 @@ npm run build
 
 ### About
 
-Made with [https://github.com/alpinejs/alpine](Alpine) and [https://tailwindcss.com/](Tailwind) to let HTML shine.
+Made with [Alpine](https://github.com/alpinejs/alpine) and [Tailwind](https://tailwindcss.com/) to let HTML shine.
