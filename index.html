@@ -7,9 +7,9 @@
     <title>Pakky</title>
 
     
-  <script type="module" crossorigin src="/pakky/assets/main.7063e95e.js"></script>
+  <script type="module" crossorigin src="/pakky/assets/main.f0942d8b.js"></script>
   <link rel="modulepreload" href="/pakky/assets/vendor.4f4cfc99.js">
-  <link rel="stylesheet" href="/pakky/assets/main.b905d44f.css">
+  <link rel="stylesheet" href="/pakky/assets/main.c558992c.css">
 </head>
   <body>
     <main>
@@ -17,13 +17,13 @@
         <h1 class="text-5xl font-black tracking-widest leading-loose opacity-0 text-primary-light dark:text-primary-dark animate-hero-title">Pakky</h1>
         <p class="text-xl tracking-widest opacity-0 animate-hero-subtitle">
           Receiving packages has never been so easy.
-          <a href="/about/">About</a>
+          <a class="font-semibold" href="/about/">About</a>
         </p>
       </section>
 
-      <section class="container mx-auto px-4 py-8 min-h-screen">
-        <h2 class="text-3xl font-semibold tracking-wider leading-relaxed">What is this?</h2>
-        <p class="text-xl">Pakky è il primo box al mondo con apertura senza chiavi che, anche in tua assenza, consentirà la ricezione di posta e pacchi di piccole e medie dimensioni, o lo scambio di merci, senza la necessità di alcun contatto tra individui. A differenza delle comuni cassette postali esistenti sul mercato, EVOPOST si apre semplicemente digitando il tuo codice segreto personalizzato.</p>
+      <section class="container mx-auto px-4 py-8 text-center prose sm:prose-md md:prose-lg lg:prose-xl xl:prose-2xl">
+        <h2 class="text-3xl font-semibold tracking-wider leading-relaxed">What is Pakky?</h2>
+        <p class="text-xl">Pakky is the first mailbox with a keyless opening that, even in case of your absence, can still receive letters and packages of medium/small dimension. It can also be used for exchanging goods without the need of any actual contacts. Different from other already existing mailbox, Pakky can be opened by simply using a QR code available throw our app. Receiving packages has never been so easy!</p>
       </section>
 
       <section class="container sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl mx-auto px-4 py-8 prose sm:prose-md md:prose-lg lg:prose-xl xl:prose-2xl dark:prose-dark text-center">
@@ -35,21 +35,21 @@
 
             <h3>Easy</h3>
 
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus maiores excepturi aut perferendis eius totam velit, adipisci, sunt illum minus optio animi, rem libero esse facilis obcaecati consequuntur cupiditate quam.</p>
+            <p>Receiveing new parcels and letters has never been so easy. The courier will arrive in front of pakky and will scan the barcode with the tracking code using the apposite pakky sensor. Than pakky will open itself allowing the courier to deposit safely the package and, by closing again the device, s/he and any other people won't be able to open again Pakky.</p>
           </div>
           <div role="listitem">
             <img class="max-h-52 m-auto" width="auto" height="auto" src="/pakky/assets/safe.2e16c769.svg" alt="Image representing safety" />
 
             <h3>Safe</h3>
 
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus maiores excepturi aut perferendis eius totam velit, adipisci, sunt illum minus optio animi, rem libero esse facilis obcaecati consequuntur cupiditate quam.</p>
+            <p>Thanks to our innovative design and concept Pakky is completly waterproof and can resist to any time of natural events. Its strong locking system will also prevent any attempt to force it. The use of a special letter entry will also prevent anyone to insert garbage inside yur Pakky.</p>
           </div>
           <div role="listitem">
             <img class="max-h-52 m-auto" width="auto" height="auto" src="/pakky/assets/smart.6fd29b85.svg" alt="Image representing smartness" />
 
             <h3>Smart</h3>
 
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus maiores excepturi aut perferendis eius totam velit, adipisci, sunt illum minus optio animi, rem libero esse facilis obcaecati consequuntur cupiditate quam.</p>
+            <p>Pakky comes with a ton of features all customizable and confortably available from our unique app. Pakky will send you a notification whenever a new letter/packages will be inserted so you will never miss an important delivery!</p>
           </div>
         </div>
       </section>
@@ -67,12 +67,12 @@
             You can always ask for a refund whenever you want.
           </p>
           <div class="relative z-0 w-full mb-5">
-            <form>
+            <form onsubmit="event.preventDefault()">
               <label class="text-left w-full block">Name:</label>
-              <input type="text" name="name" placeholder="Mario Rossi" required class="mb-8 border-0 w-full border-b-2 border-gray-300 transition duration-500 focus:border-green-500 focus:outline-none focus:ring-0" />
+              <input type="text" value="test" name="name" placeholder="Mario Rossi" required class="mb-8 border-0 w-full border-b-2 border-gray-300 transition duration-500 hover:border-green-200 focus:border-green-500 focus:outline-none focus:ring-0" />
               <label class="text-left w-full block">Email:</label>
-              <input type="email" name="email" placeholder="example@example.com" required class="mb-8 border-0 w-full border-b-2 border-gray-300 transition duration-500 focus:border-green-500 focus:outline-none focus:ring-0" />  
-              <button class="w-full bg-green-500 h-12 rounded-md font-semibold text-gray-200">Preorder Now!</button>
+              <input type="email" value="test@test.test" name="email" placeholder="example@example.com" required class="mb-8 border-0 w-full border-b-2 border-gray-300 transition duration-500 hover:border-green-200 focus:border-green-500 focus:outline-none focus:ring-0" />  
+              <button class="w-full bg-green-500 h-12 rounded-md font-semibold focus:outline-none transform scale-95 hover:scale-100 duration-300 text-gray-200">Preorder Now!</button>
             </form>
           </div>
         </div>
