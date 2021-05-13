@@ -8,6 +8,18 @@ module.exports = {
           light: "#fafafa",
           dark: "#111111",
         },
+        primary:{
+          "50": "#f3fbf9",
+          "100": "#e6f7f3",
+          "200": "#ccefe6",
+          "300": "#b3e7d9", 
+          "400": "#a6e3d3", 
+          "500": "#99decc", //logo color
+          "600": "#86c3b3",
+          "700": "#73a799",
+          "800": "#608b80",
+          "900": "#4d6f66",
+        },
       },
       animation: {
         "hero-background": "fade-in 1s ease-in 250ms forwards",
