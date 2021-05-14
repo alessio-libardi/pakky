@@ -13,14 +13,14 @@
       <!--SEZIONE TITOLO-->
       <section class="grid place-content-center min-h-screen px-4 py-8 prose-responsive max-w-none bg-primary-300 dark:bg-primary-800">
         <h1 class="text-primary-500" style="margin: 0">Pakky</h1>
-        <p class="dark:text-white">Receiving packages has never been so easy.</p>
+        <p class="dark:text-white">Receiving packages has never been so easy</p>
         <img class="max-h-52 m-auto hover:scale-110 transform duration-300" width="auto" height="auto" src="/assets/images/deliveries.svg" alt="Image representing deliveries" />
       </section>
       <!--FINE SEZIONE TITOLO-->
 
       <!--SEZIONE INTRODUTTIVA -->
       <section class="container-responsive prose-responsive text-justify">
-        <p><span class="empathize">Pakky</span> is the first mailbox with a<span class="empathize"> keyless opening </span> that can still receive letters and packages of medium/small dimension even in case of your absence. It can also be used for exchanging goods without the need for any actual contacts. Different from other already existing mailboxes, <span class="empathize">Pakky</span> can be opened by simply using a QR code available throw our app. Receiving packages has never been so <span class="empathize">easy!</span></p>
+        <p><em>Pakky</em> is the first mailbox with a <em>keyless opening </em> that can still receive letters and packages of medium/small dimension even in case of your absence. It can also be used for exchanging goods without the need for any actual contacts. Different from other already existing mailboxes, <em>Pakky</em> can be opened by simply using a QR code available throw our app. Receiving packages has never been so <span class="empathize">easy!</span></p>
         <hr />
       </section>
       <!--FINE SEZIONE INTRODUTTIVA -->
@@ -64,17 +64,75 @@
 
       <!--SEZIONE ABOUT-->
       <section class="container-responsive prose-responsive">
-
         <h2 class="text-center">About</h2>
 
         <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis amet, quis, tenetur eaque, nisi numquam provident ut in quasi qui assumenda facilis vitae cum. Quasi ullam aut perferendis labore quisquam.</p>
         <hr />
       </section>
-      <!--FINE SEZIONE TITOLO-->
+      <!--FINE SEZIONE ABOUT-->
+
+      <!--SEZIONE F.A.Q.-->
+      <section class="container-responsive prose-responsive">
+        <h2 class="text-center">F.A.Q.</h2>
+        <div role="listitem" class="mb-14">
+          <h3>What is the weight of Pakky?</h3>
+          <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis amet, quis, tenetur eaque, nisi numquam provident ut in quasi qui assumenda facilis vitae cum. Quasi ullam aut perferendis labore quisquam.</p>
+        </div>
+        <div role="listitem" class="mb-14">
+          <h3>Can the Pakky be stolen?</h3>
+          <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis amet, quis, tenetur eaque, nisi numquam provident ut in quasi qui assumenda facilis vitae cum. Quasi ullam aut perferendis labore quisquam.</p>
+        </div>
+        <div role="listitem" class="mb-14">
+          <h3>How I need to open it when I have a package?</h3>
+          <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis amet, quis, tenetur eaque, nisi numquam provident ut in quasi qui assumenda facilis vitae cum. Quasi ullam aut perferendis labore quisquam.</p>
+        </div>
+        <div role="listitem" class="mb-14">
+          <h3>How I will be sure that courier put the package inside?</h3>
+          <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis amet, quis, tenetur eaque, nisi numquam provident ut in quasi qui assumenda facilis vitae cum. Quasi ullam aut perferendis labore quisquam.</p>
+        </div>
+        <div role="listitem" class="mb-14">
+          <h3>From which material Pakky is made?</h3>
+          <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis amet, quis, tenetur eaque, nisi numquam provident ut in quasi qui assumenda facilis vitae cum. Quasi ullam aut perferendis labore quisquam.</p>
+        </div>
+        <div role="listitem" class="mb-14">
+          <h3>Can I give my QR-code for somebody else?</h3>
+          <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis amet, quis, tenetur eaque, nisi numquam provident ut in quasi qui assumenda facilis vitae cum. Quasi ullam aut perferendis labore quisquam.</p>
+        </div>
+        <div class="p-6 bg-white dark:bg-gray-800 border-0 shadow-lg rounded-3xl mx-4 mb-6">
+          <h2 class="font-semibold capitalize tracking-wide text-2xl mb-4 text-center">Other questions?</h2>
+          <p class="mb-8 text-justify">Tell us your question, you will be contacted as soon as possible!</p>
+          <div class="z-0 w-full mb-5">
+            <form onsubmit="event.preventDefault()">
+              <div class="flex px-2">
+                <label class="mx-2 flex-1 text-sm">Name:</label>
+                <label class="mx-2 flex-1 text-sm">Email:</label>
+              </div>
+              <div class="flex px-2">
+                <input type="text" name="name" placeholder="Mario Rossi" required class="mx-2 flex-1 dark:bg-gray-800 mb-8 border-0 w-full border-b-2 border-gray-300 transition duration-500 hover:border-primary-300 focus:border-primary-600 focus:outline-none focus:ring-0" />
+                <input type="email" name="email" placeholder="example@example.com" required class="mx-2 flex-1 dark:bg-gray-800 mb-8 border-0 w-full border-b-2 border-gray-300 transition duration-500 hover:border-primary-300 focus:border-primary-600 focus:outline-none focus:ring-0" />
+              </div>
+              <div class="flex px-4 mb-8 h-32">
+                <textarea placeholder="Write here your questions!" class="flex-1 border-gray-400 hover:border-primary-300 focus:ring-primary-600 focus:border-primary-600 transform duration-300"></textarea>
+              </div>
+
+              <button type="submit" class="group relative w-full flex justify-center py-2 px-4 font-semibold text-white rounded-md bg-green-500 hover:bg-green-600 focus:outline-none scale-95 hover:scale-100 transform duration-300">
+                <span class="pr-2">Send!</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 transform rotate-45 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" x-description="Icon to represent the send">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <hr />
+      </section>
+
+
+      <!--FINE SEZIONE F.A.Q.-->
 
       <!--SEZIONE PREORDER-->
       <section class="container-responsive prose-responsive">
-        <div class=" p-6 bg-white dark:bg-gray-800 border-0 shadow-lg rounded-3xl mx-4 mb-6">
+        <div class="p-6 bg-white dark:bg-gray-800 border-0 shadow-lg rounded-3xl mx-4 mb-6">
           <h2 class="font-semibold capitalize tracking-wide text-2xl mb-4 text-center">Preoder now open!</h2>
           <p class="mb-8">
             Ensure the first version of <span class="font-bold">Pakky</span>. <br />
@@ -91,7 +149,7 @@
           </div>
         </div>
       </section>
-      <!--FINE SEZIONE TITOLO-->
+      <!--FINE SEZIONE PREORDER-->
     </main>
 
     <script type="module" src="/assets/scripts/index.js"></script>
