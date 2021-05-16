@@ -6,6 +6,30 @@
 }
 
 @layer components {
+  .base {
+    @apply antialiased text-gray-800 dark:text-gray-300 bg-gray-300 dark:bg-gray-800;
+  }
+
+  .header {
+    @apply bg-primary-300 dark:bg-primary-800;
+
+    & .container {
+      @apply mx-auto px-4 py-6;
+    }
+  }
+
+  .main {
+    @apply prose sm:prose-lg md:prose-xl lg:prose-2xl dark:prose-dark max-w-prose mx-auto px-4 py-8;
+  }
+
+  .footer {
+    @apply bg-primary-300 dark:bg-primary-800;
+
+    & .container {
+      @apply mx-auto px-4 py-6;
+    }
+  }
+
   .container-responsive {
     @apply container sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl mx-auto px-4 py-16;
   }
