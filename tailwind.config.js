@@ -4,50 +4,38 @@ module.exports = {
   purge: ["./src/**/*.html"],
   theme: {
     extend: {
+      maxWidth: { prose: "65ch" },
       colors: {
+        primary: {
+          50: "#f3fbf9",
+          100: "#e6f7f3",
+          200: "#ccefe6",
+          300: "#b3e7d9",
+          400: "#a6e3d3",
+          500: "#99decc",
+          600: "#86c3b3",
+          700: "#73a799",
+          800: "#608b80",
+          900: "#4d6f66",
+        },
         gray: {
-          light: "#fafafa",
-          dark: "#111111",
-        },
-        primary:{
-          "50": "#f3fbf9",
-          "100": "#e6f7f3",
-          "200": "#ccefe6",
-          "300": "#b3e7d9", 
-          "400": "#a6e3d3", 
-          "500": "#99decc", //logo color
-          "600": "#86c3b3",
-          "700": "#73a799",
-          "800": "#608b80",
-          "900": "#4d6f66",
-        },
-      },
-      animation: {
-        "hero-background": "fade-in 1s ease-in 250ms forwards",
-        "hero-title": "fade-in 250ms ease-in 1s forwards",
-        "hero-subtitle": "fade-in 250ms ease-in 2s forwards",
-      },
-      keyframes: {
-        "fade-in": {
-          from: {
-            opacity: 0,
-          },
-          to: {
-            opacity: 1,
-          },
-        },
-        "bottom-left-fade-in": {
-          "0%": {
-            opacity: 0,
-            transform: "scale(0.5)",
-          },
-          "100%": {
-            opacity: 1,
-            transform: "scale(1)",
-          },
+          300: "#fafafa",
+          800: "#111111",
         },
       },
       typography: (theme) => ({
+        DEFAULT: {
+          css: [
+            {
+              "ol > li::before": {
+                color: theme("colors.gray.600"),
+              },
+              "ul > li::before": {
+                backgroundColor: theme("colors.gray.600"),
+              },
+            },
+          ],
+        },
         dark: {
           css: [
             {
@@ -65,7 +53,7 @@ module.exports = {
                 color: theme("colors.gray.400"),
               },
               "ul > li::before": {
-                backgroundColor: theme("colors.gray.600"),
+                backgroundColor: theme("colors.gray.400"),
               },
               hr: {
                 borderColor: theme("colors.gray.200"),
