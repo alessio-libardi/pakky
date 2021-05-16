@@ -1,8 +1,9 @@
+import { defineConfig } from "vite";
 import { resolve } from "path";
 
-export default {
+export default defineConfig({
   root: "src",
-  base: "/pakky/",
+  base: process.env.ENV === "development" ? "/" : "/pakky/",
   server: {
     open: true,
   },
@@ -12,7 +13,9 @@ export default {
     rollupOptions: {
       input: {
         main: resolve(__dirname, "src/index.html"),
+        about: resolve(__dirname, "src/about/index.html"),
+        faq: resolve(__dirname, "src/faq/index.html"),
       },
     },
   },
-};
+});
