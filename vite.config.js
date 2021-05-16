@@ -3,7 +3,7 @@ import { resolve } from "path";
 
 export default defineConfig({
   root: "src",
-  base: "/pakky/",
+  base: process.env.ENV === "development" ? "/" : "/pakky/",
   server: {
     open: true,
   },
