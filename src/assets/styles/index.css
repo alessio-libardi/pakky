@@ -19,6 +19,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: difference;
+    backdrop-filter: brightness(70%);
   }
 
   em {
