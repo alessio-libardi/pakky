@@ -12,7 +12,7 @@
     <main>
       <!--SEZIONE TITOLO-->
       <section class="relative grid h-screen prose-responsive max-w-none overflow-hidden">
-        <img src="./assets/hero.png" class="w-screen h-screen object-cover" alt="Image of delivery guy"/>
+        <img src="./assets/hero.png" class="w-screen h-screen object-cover" alt="Image of delivery guy" />
         <div class="my-auto absolute flex content-center inset-0 px-4 py-8 h-full">
           <div class="my-auto">
             <div class="-mt-14">
@@ -110,17 +110,19 @@
           <h2 class="font-semibold capitalize tracking-wide text-2xl md:text-4xl mb-4 text-center">Other questions?</h2>
           <p class="mb-8 text-center">Tell us your question, you will be contacted as soon as possible!</p>
           <div class="z-0 w-full mb-5">
-            <form onsubmit="event.preventDefault()" class="flex flex-col md:flex-wrap">
-              <div class="px-2 flex-auto">
-                <label class="mx-2 text-sm" for="name">Name:</label>
-                <input type="text" name="name" placeholder="Mario Rossi" required class="mx-2 dark:bg-gray-800 mb-8 border-0 w-full border-b-2 border-gray-300 transition duration-500 hover:border-primary-300 focus:border-primary-600 focus:outline-none focus:ring-0" />
-              </div>
-              <div class="px-2 flex-auto">
-                <label class="mx-2 text-sm" for="email">Email:</label>
-                <input type="email" name="email" placeholder="example@example.com" required class="mx-2dark:bg-gray-800 mb-8 border-0 w-full border-b-2 border-gray-300 transition duration-500 hover:border-primary-300 focus:border-primary-600 focus:outline-none focus:ring-0" />
+            <form onsubmit="event.preventDefault()" class="p-5">
+              <div class="flex md:space-x-8 flex-col md:flex-row">
+                <div class="flex-auto">
+                  <label class="text-sm" for="name">Name:</label>
+                  <input type="text" name="name" placeholder="Mario Rossi" required class="dark:bg-gray-800 mb-8 border-0 w-full border-b-2 border-gray-300 transition duration-500 hover:border-primary-300 focus:border-primary-600 focus:outline-none focus:ring-0" />
+                </div>
+                <div class="flex-auto">
+                  <label class="text-sm" for="email">Email:</label>
+                  <input type="email" name="email" placeholder="example@example.com" required class="dark:bg-gray-800 mb-8 border-0 w-full border-b-2 border-gray-300 transition duration-500 hover:border-primary-300 focus:border-primary-600 focus:outline-none focus:ring-0" />
+                </div>
               </div>
               <div class="px-4 mb-8 h-32 flex-1">
-                <textarea placeholder="Write here your questions!" class="w-full border-gray-400 hover:border-primary-300 focus:ring-primary-600 focus:border-primary-600 transform duration-300 dark:bg-gray-800"></textarea>
+                <textarea placeholder="Write here your questions!" rows="5" class="w-full border-gray-400 hover:border-primary-300 focus:ring-primary-600 focus:border-primary-600 transform duration-300 dark:bg-gray-800"></textarea>
               </div>
 
               <button type="submit" class="group relative w-full flex justify-center py-2 px-4 font-semibold text-white rounded-md bg-green-500 hover:bg-green-600 focus:outline-none scale-95 hover:scale-100 transform duration-300">
