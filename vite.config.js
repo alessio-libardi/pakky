@@ -2,7 +2,7 @@ const { resolve } = require("path");
 
 export default {
   root: "src",
-  base: "/pakky/",
+  //base: "/pakky/",
   server: {
     open: true,
   },
