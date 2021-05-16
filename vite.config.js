@@ -15,6 +15,7 @@ export default defineConfig({
         main: resolve(__dirname, "src/index.html"),
         about: resolve(__dirname, "src/about/index.html"),
         faq: resolve(__dirname, "src/faq/index.html"),
+        404: resolve(__dirname, "src/404.html"),
       },
     },
   },
