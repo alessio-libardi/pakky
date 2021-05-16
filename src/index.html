@@ -11,11 +11,14 @@
   <body>
     <main>
       <!--SEZIONE TITOLO-->
-      <section class="grid min-h-screen px-4 py-8 prose-responsive max-w-none hero" style="background-image: url(./assets/hero.png)">
-        <div class="my-auto">
-          <div class="-mt-24">
-            <img src="assets/logo-1-white.png" class="w-52 md:w-96" alt="Logo of Pakky" />
-            <p class="-mt-8 text-white">Receiving packages has never been so easy</p>
+      <section class="relative grid h-screen prose-responsive max-w-none overflow-hidden">
+        <img src="./assets/hero.png" class="w-screen h-screen object-cover" alt="Image of delivery guy"/>
+        <div class="my-auto absolute flex content-center inset-0 px-4 py-8 h-full">
+          <div class="my-auto">
+            <div class="-mt-14">
+              <img src="assets/logo-1-white.png" class="w-52 md:w-96" alt="Logo of Pakky" />
+              <p class="-mt-8 text-white">Receiving packages has never been so easy</p>
+            </div>
           </div>
         </div>
         <!-- <img class="max-h-52 m-auto hover:scale-110 transform duration-300" width="auto" height="auto" src="/assets/images/deliveries.svg" alt="Image representing deliveries" /> -->
