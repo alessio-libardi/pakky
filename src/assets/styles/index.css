@@ -22,6 +22,10 @@
     @apply prose sm:prose-lg md:prose-xl lg:prose-2xl dark:prose-dark max-w-prose mx-auto px-4 py-8;
   }
 
+  .text {
+    @apply prose sm:prose-lg md:prose-xl lg:prose-2xl dark:prose-dark
+  }
+
   .footer {
     @apply bg-primary-300 dark:bg-primary-800;
 
