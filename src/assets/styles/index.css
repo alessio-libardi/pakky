@@ -50,12 +50,12 @@
   }
 
   em {
-    @apply font-bold not-italic text-transparent bg-clip-text bg-gradient-to-br from-green-500 to-green-900;
+    @apply font-bold not-italic text-transparent bg-clip-text bg-gradient-to-br from-primary-500 to-primary-900;
   }
 
   @media (prefers-color-scheme: dark) {
     em {
-      @apply font-bold not-italic text-transparent bg-clip-text bg-gradient-to-br from-green-300 to-green-600;
+      @apply font-bold not-italic text-transparent bg-clip-text bg-gradient-to-br from-primary-300 to-primary-600;
     }
   }
 }
