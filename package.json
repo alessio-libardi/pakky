@@ -29,7 +29,7 @@
     "build": "ENV=production vite build"
   },
   "devDependencies": {
-    "@snowpack/plugin-postcss": "^1.2.2",
+    "@snowpack/plugin-postcss": "^1.4.2",
     "@tailwindcss/forms": "^0.3.2",
     "@tailwindcss/typography": "^0.4.0",
     "postcss": "^8.2.15",
