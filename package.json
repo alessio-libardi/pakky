@@ -37,7 +37,7 @@
     "postcss-import": "^14.0.2",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^2.1.2",
-    "vite": "^2.3.2"
+    "vite": "^2.7.2"
   },
   "dependencies": {
     "alpinejs": "^2.8.2"
